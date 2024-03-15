@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><img src="screenshots/logo.png" alt="project-logo" width=150px></p>
 
 <h1 align="center" id="title">GoChat : Realtime Chat App</h1>
@@ -75,3 +76,6 @@ npm start
 ```
 http://localhost:5000
 ```
+=======
+GoChat
+>>>>>>> e028d3b6989a6d39b6c4ed9b45f43b5029e1b5ab
