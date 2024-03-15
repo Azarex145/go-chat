@@ -31,7 +31,7 @@
 [https://go-chat-lpn0.onrender.com](https://go-chat-lpn0.onrender.com)
 
 <h2>Project Snapshot:</h2>
-<img src="screenshots/realtime.png" alt="project-screenshot" width="1400" height="650">
+<img src="screenshots/realtime.png" alt="project-screenshot" width="1200" height="600">
 
 <h2>⚡️ Features</h2>
 
