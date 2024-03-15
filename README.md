@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center"><img src="screenshots/logo.png" alt="project-logo" width=150px></p>
 
 <h1 align="center" id="title">GoChat : Realtime Chat App</h1>
@@ -7,7 +6,7 @@
 
 ## 🖥️ Tech Stack
 
-<h3>Fontend:</h3>
+<h3>Frontend:</h3>
 <p align="left">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="shields">&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="shields">&nbsp;&nbsp;
@@ -76,6 +75,3 @@ npm start
 ```
 http://localhost:5000
 ```
-=======
-GoChat
->>>>>>> e028d3b6989a6d39b6c4ed9b45f43b5029e1b5ab
