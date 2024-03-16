@@ -37,6 +37,7 @@ const SearchInput = () => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
+
       <button
         type="submit"
         className="btn btn-circle w-[2.5rem] h-[2.5rem] min-h-[2.5rem] bg-sky-500 text-white hover:bg-pink-500 border-none"
@@ -47,4 +48,3 @@ const SearchInput = () => {
   );
 };
 export default SearchInput;
-

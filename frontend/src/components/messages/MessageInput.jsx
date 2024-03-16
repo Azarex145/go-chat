@@ -12,7 +12,7 @@ const MessageInput = ({ selectedConversation }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!message.trim()) return; 
+    if (!message.trim()) return;
     await sendMessage(message.trim());
     setMessage("");
     e.target.style.height = "2.75rem";
@@ -20,7 +20,7 @@ const MessageInput = ({ selectedConversation }) => {
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
-      e.preventDefault(); 
+      e.preventDefault();
       handleSubmit(e);
       setMessage("");
     }
@@ -43,7 +43,7 @@ const MessageInput = ({ selectedConversation }) => {
       <div className="w-full flex items-end gap-2">
         <textarea
           type="text"
-          className=" resize-none text-sm sm:text-base rounded-lg w-full p-2 bg-white border-none text-black outline-none !important h-[2.75rem]  max-h-[7rem] placeholder-middle"
+          className=" resize-none text-sm sm:text-base rounded-lg w-full p-2 bg-white dark:bg-[#1D232A] dark:text-slate-400 border-none text-black outline-none !important h-[2.75rem]  max-h-[7rem] placeholder-middle"
           placeholder="Send a message"
           value={message}
           onChange={handleChange}

@@ -27,7 +27,7 @@ const SignUp = () => {
     <div className="flex flex-col items-center justify-center min-w-80 sm:min-w-96 mx-auto">
       <div className="flex flex-col gap-2 w-full p-5 rounded-lg shadow-md bg-gradient-to-l from-slate-900 to-purple-900">
         <h1 className="text-3xl font-semibold text-center text-gray-300">
-          Sign Up <span className="text-blue-500"> ChatApp</span>
+          Sign Up <span className="text-blue-500">GoChat</span>
         </h1>
 
         <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
@@ -117,14 +117,16 @@ const SignUp = () => {
 
           <div>
             <button
-              className="btn btn-block text-black hover:bg-blue-500 hover:text-white mt-2 mb-2 border-none text-lg"
+              className="w-[100%] relative inline-flex items-center justify-center p-0.5 mt-2 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white  focus:outline-none"
               disabled={loading}
             >
-              {loading ? (
-                <span className="loading loading-spinner"></span>
-              ) : (
-                "Sign Up"
-              )}
+              <span class="w-[100%] text-lg h-[3rem] min-h-[3rem] relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                {loading ? (
+                  <span className="loading loading-spinner"></span>
+                ) : (
+                  "Sign Up"
+                )}
+              </span>
             </button>
           </div>
         </form>
@@ -133,4 +135,3 @@ const SignUp = () => {
   );
 };
 export default SignUp;
-
